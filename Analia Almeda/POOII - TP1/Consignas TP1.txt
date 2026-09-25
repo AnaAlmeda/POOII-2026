@@ -35,3 +35,7 @@ Implementa un método void eliminar(int idCancion) que busque la primera coincid
 Punto clave a resolver: Asegúrate de contemplar el caso especial donde la canción a eliminar sea la cabeza (el primer elemento), actualizando correctamente el puntero principal de la lista.
 
 En el Main, agrega canciones, muéstralas, elimina una y vuelve a mostrar el estado actualizado de la lista. */
+
+
+
+/**/
