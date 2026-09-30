@@ -1,7 +1,7 @@
 
-public class ListaSimple {
+public class Listasimple {
     Nodo primerNodo;
-    public ListaSimple(){
+    public Listasimple(){
         primerNodo = null;
     }
 
