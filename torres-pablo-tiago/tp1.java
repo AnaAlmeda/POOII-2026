@@ -45,7 +45,7 @@ class ListaTurnos {
     }
 }
 
-public class ListaProductos {
+ class ListaProductos {
     public static void main(String[] args) {
         ListaTurnos lista = new ListaTurnos();
 

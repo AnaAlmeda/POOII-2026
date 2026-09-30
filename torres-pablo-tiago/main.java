@@ -64,8 +64,7 @@ class ListaReproduccion {
         System.out.println("null");
     }
 }
-
-public class ListaMusica {
+  class ListaMusica {
     public static void main(String[] args) {
         ListaReproduccion playlist = new ListaReproduccion();
 

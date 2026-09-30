@@ -40,7 +40,7 @@ class ListaProductos {
     }
 }
 
-public class ControlStock {
+ class ControlStock {
     public static void main(String[] args) {
         ListaProductos stock = new ListaProductos();
 
