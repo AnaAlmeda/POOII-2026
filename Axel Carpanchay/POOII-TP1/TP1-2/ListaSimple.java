@@ -1,37 +1,35 @@
 public class ListaSimple {
     Nodo primerNodo;
 
-
-    public ListaSimple () {
+    public ListaSimple(){
         primerNodo = null;
     }
+    public void agregar(int codigo){
+        Nodo nuevoNodo = new Nodo(codigo);
 
-    public void agregar (int dato){
-        Nodo nuevodato = new Nodo(dato);
-
-        if (primerNodo == null) {
-            primerNodo = nuevodato;
-        }else {
+        if (primerNodo == null){
+            primerNodo = nuevoNodo;
+        }else{
             Nodo nodocopia = primerNodo;
-            while (nodocopia.nodosiguiente != null) {
-                nodocopia = nodocopia.nodosiguiente;
+            while(nodocopia.nodosiguiente != null){
+                nodocopia = nodocopia.nodosiguiente;       
             }
-            nodocopia.nodosiguiente = nuevodato;
-        }
-    }
-    
-    public void mostrar () {
-        if (primerNodo == null) {
-            System.out.println("no tiene elementos para mostrar");
-            return;
+            nodocopia.nodosiguiente = nuevoNodo;
         }
 
+    }
+
+    public boolean buscar(int codigoBuscado){
         Nodo nodocopia = primerNodo;
 
-        while (primerNodo != null) {
-            System.out.println("dato guardado: " + primerNodo.dato);
+        while (nodocopia != null) {
+            if(nodocopia.codigo == codigoBuscado){
+                return true;
+            }
             nodocopia = nodocopia.nodosiguiente;
         }
+        return false;
     }
+
 }
 
