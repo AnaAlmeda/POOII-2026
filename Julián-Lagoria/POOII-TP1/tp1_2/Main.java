@@ -1,3 +1,5 @@
+package tp1_2;
+
 public class Main {
     public static void main(String[] args) {
         ListaSimple stockProductos = new ListaSimple();
@@ -11,9 +13,9 @@ public class Main {
         boolean estaDisponible = stockProductos.buscar(articuloBuscar);
 
         if (estaDisponible){
-            System.out.print("El producto " + articuloBuscar + " Si está disponible");
+            System.out.println("El producto " + articuloBuscar + " Si está disponible");
         } else {
-            System.out.print("El producto " + articuloBuscar + " No está disponible");
+            System.out.println("El producto " + articuloBuscar + " No está disponible");
         }
 
         int articuloBuscar2 = 9999;
