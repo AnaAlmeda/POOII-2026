@@ -23,7 +23,7 @@ public class ListaSimple {
             return;
         }
         Nodo nodocopia = primerNodo;
-        while (primerNodo != null){
+        while (nodocopia != null){
             System.out.println("dato guardado:" + nodocopia.dato);
             nodocopia = nodocopia.nodosiguiente;
         }
