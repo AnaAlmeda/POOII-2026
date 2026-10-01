@@ -1,12 +1,12 @@
+package tp1_2;
+
 public class Nodo {
-    int dato;
+    int codigo;
     Nodo nodosiguiente;
 
-    public Nodo (int dato){
-        this.dato = dato;
+    public Nodo(int codigo){
+        this.codigo = codigo;
         this.nodosiguiente = null;
     }
-
     
 }
-
