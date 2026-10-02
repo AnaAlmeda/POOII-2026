@@ -1,5 +1,7 @@
 public class Lista_Simple {
+
     Nodo primerNodo;
+
     public Lista_Simple() {
         primerNodo = null;
     }
@@ -12,7 +14,7 @@ public class Lista_Simple {
         }else{
             Nodo nodocopia = primerNodo;
             while (nodocopia.nodosiguiente !=null) {
-                nodocopia = nodocopia.nodosiguiente;
+                nodocopia = nodocopia.nodosiguiente; 
             }
             nodocopia.nodosiguiente = nuevodato;
         }

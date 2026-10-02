@@ -9,14 +9,10 @@ public class Main {
         int codigoBuscado = 7894;
 
         if (LsSimple.buscar(codigoBuscado)){
-            System.out.println("El producto con código " + codigoBuscado + " está disponible.");
+            System.out.println("El producto con el código " + codigoBuscado + " está disponible.");
         } else {
-            System.out.println("El producto con código " + codigoBuscado + " no está disponible.");
+            System.out.println("El producto con el código " + codigoBuscado + " no está disponible.");
         }
-
-
     }
-           
-
 }
 

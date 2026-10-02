@@ -12,7 +12,7 @@ public class Listasimple {
             primerNodo = nuevodato;
         }else{
             Nodo nodocopia = primerNodo;
-            while (nodocopia.nodosiguiente != null) {
+            while (nodocopia.nodosiguente != null) {
                 nodocopia = nodocopia.nodosiguiente;                
             }
             nodocopia.nodosiguiente = nuevodato;
