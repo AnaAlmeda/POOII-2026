@@ -1,13 +1,24 @@
-*Ejercicio 1: Control de Turnos (Inserción y Recorrido)
+/*Ejercicio 1: Control de Turnos (Inserción y Recorrido)
 Objetivo: Crear una lista que permita registrar números enteros (como turnos de atención) y mostrarlos en pantalla.
 
 Implementa un método agregar(int valor) que inserte los elementos siempre al final de la lista.
 
 Implementa un método mostrar() que recorra los nodos desde la cabeza hasta el final, imprimiendo su contenido.
 
-Integra el manejo de nulos: Asegúrate de que tu método de inserción valide si la lista está vacía (cabeza == null) para asignar el nuevo nodo directamente como la cabeza.
+Integra el manejo de nulos: Asegúrate de que tu método de inserción valide si la lista está vacía (cabeza == null) para asignar el nuevo nodo directamente como la cabeza. */
 
-**Ejercicio 2: Sistema de Control de Stock (Búsqueda de Productos)
+
+public class Main {
+    public static void main(String[] args) {
+        ListaSimple lSimple = new ListaSimple();
+        lSimple.agregar(15);
+        lSimple.agregar(16);
+        lSimple.mostrar();      
+    }
+}
+
+
+/*Ejercicio 1: Sistema de Control de Stock (Búsqueda de Productos)
 Contexto: Un pequeño depósito necesita registrar los códigos de los productos que van ingresando para poder consultar rápidamente si un artículo se encuentra disponible.
 
 Consigna:
@@ -20,8 +31,7 @@ Implementa un método boolean buscar(int codigoBuscado) que recorra la lista des
 
 Crea una clase Main que cargue al menos 4 códigos de productos y compruebe el funcionamiento del buscador imprimiendo un mensaje claro por pantalla.
 
-
-***Ejercicio 3: Lista de Reproducción de Música (Eliminación de Elementos)
+Ejercicio 2: Lista de Reproducción de Música (Eliminación de Elementos)
 Contexto: Una aplicación de música básica almacena los IDs de las canciones en una lista simple. Si el usuario decide saltear o quitar una canción, esta debe eliminarse de la secuencia.
 
 Consigna:
@@ -35,7 +45,3 @@ Implementa un método void eliminar(int idCancion) que busque la primera coincid
 Punto clave a resolver: Asegúrate de contemplar el caso especial donde la canción a eliminar sea la cabeza (el primer elemento), actualizando correctamente el puntero principal de la lista.
 
 En el Main, agrega canciones, muéstralas, elimina una y vuelve a mostrar el estado actualizado de la lista. */
-
-
-
-/****/
