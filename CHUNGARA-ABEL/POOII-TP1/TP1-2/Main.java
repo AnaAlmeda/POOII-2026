@@ -11,8 +11,8 @@ public class Main {
 
         lSimple.agregar(404);
         lSimple.agregar(200);
-        lSimple.agregar(305);
-        lSimple.agregar(2);
+        lSimple.agregar(210);
+        lSimple.agregar(255);
 
         System.out.println("Productos cargados:");
 
