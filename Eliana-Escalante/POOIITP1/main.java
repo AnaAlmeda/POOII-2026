@@ -1,9 +1,12 @@
+
+
 public class Main {
     public static void main(String[] args) {
-        listasSimples lista = new listasSimples();
+
+        ListaSimple lista = new ListaSimple();
+
         lista.agregar(15);
         lista.agregar(26);
         lista.mostrar();
-        
     }
 }

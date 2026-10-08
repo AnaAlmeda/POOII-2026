@@ -1,6 +1,4 @@
-package POOII-2026.Eliana-Escalante.POOIITP2;
-
-    public class ListaSimple {
+public class ListaSimple {
 
     Nodo primerNodo;
 
@@ -8,17 +6,13 @@ package POOII-2026.Eliana-Escalante.POOIITP2;
         primerNodo = null;
     }
 
-    // Agregar un código al final de la lista
     public void agregar(int codigo) {
 
         Nodo nuevodato = new Nodo(codigo);
 
         if (primerNodo == null) {
-
             primerNodo = nuevodato;
-
         } else {
-
             Nodo nodocopia = primerNodo;
 
             while (nodocopia.nodosiguiente != null) {
@@ -29,7 +23,6 @@ package POOII-2026.Eliana-Escalante.POOIITP2;
         }
     }
 
-    // Buscar un código en la lista
     public boolean buscar(int codigoBuscado) {
 
         Nodo nodocopia = primerNodo;
@@ -46,4 +39,3 @@ package POOII-2026.Eliana-Escalante.POOIITP2;
         return false;
     }
 }
-    

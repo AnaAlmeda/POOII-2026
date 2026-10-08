@@ -1,4 +1,4 @@
-package ejercicioListas;
+
 public class Nodo {
     int dato;
     Nodo siguiente;
