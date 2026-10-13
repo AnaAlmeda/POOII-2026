@@ -1,5 +1,3 @@
-package tp1_3;
-
 public class ListaSimple {
 
     Nodo primerNodo;
