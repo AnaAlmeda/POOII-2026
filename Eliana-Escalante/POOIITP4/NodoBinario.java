@@ -1,3 +1,4 @@
+
 public class NodoBinario<T> {
     private T dato;
     private NodoBinario<T> izquierdo;
